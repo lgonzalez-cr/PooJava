@@ -1,17 +1,15 @@
 package semana_4_2;
 
-import java.util.Date;
-
 public class Vehiculo implements Actor, ObjetoInerte{
 
     private String marca;
     private String modelo;
-    private Date anno;
+    private int anno;
     private String color;
     private double peso;
     private double precio;
 
-    public Vehiculo(String marca, String modelo, Date anno, String color, double peso, double precio) {
+    public Vehiculo(String marca, String modelo, int anno, String color, double peso, double precio) {
         this.marca = marca;
         this.modelo = modelo;
         this.anno = anno;
@@ -36,11 +34,11 @@ public class Vehiculo implements Actor, ObjetoInerte{
         this.modelo = modelo;
     }
 
-    public Date getAnno() {
+    public int getAnno() {
         return anno;
     }
 
-    public void setAnno(Date anno) {
+    public void setAnno(int anno) {
         this.anno = anno;
     }
 

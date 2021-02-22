@@ -43,7 +43,7 @@ public class Arbol extends Vegetal implements Actor{
     }
 
     public void podrirse(boolean hueleFeo) {
-        System.out.println("Me podrí y " + ( hueleFeo == true ? " huelo feo. " : " no huelo feo."));
+        System.out.println("Me podrí y " + ( hueleFeo == true ? "huelo feo. " : "no huelo feo."));
     }
 
     public void crecer() {

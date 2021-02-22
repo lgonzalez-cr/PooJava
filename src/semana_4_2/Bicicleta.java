@@ -8,7 +8,7 @@ public class Bicicleta extends Vehiculo{
     private int platoTraseroActual;
     private int numeroDeBicicleta;
 
-    public Bicicleta(String marca, String modelo, Date anno, String color, double peso, double precio, int platoDelanteroActual, int platoTraseroActual, int numeroDeBicicleta) {
+    public Bicicleta(String marca, String modelo, int anno, String color, double peso, double precio, int platoDelanteroActual, int platoTraseroActual, int numeroDeBicicleta) {
         super(marca, modelo, anno, color, peso, precio);
         this.platoDelanteroActual = platoDelanteroActual;
         this.platoTraseroActual = platoTraseroActual;

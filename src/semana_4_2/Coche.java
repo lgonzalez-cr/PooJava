@@ -7,7 +7,7 @@ public class Coche extends Vehiculo{
     private String identificadorVim;
     private char marchaActual;
 
-    public Coche(String marca, String modelo, Date anno, String color, double peso, double precio, double kilometraje, String identificadorVim, char marchaActual) {
+    public Coche(String marca, String modelo, int anno, String color, double peso, double precio, double kilometraje, String identificadorVim, char marchaActual) {
         super(marca, modelo, anno, color, peso, precio);
         this.kilometraje = kilometraje;
         this.identificadorVim = identificadorVim;

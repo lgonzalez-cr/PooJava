@@ -40,7 +40,7 @@ public class Arbusto extends Vegetal implements Actor{
 
     @Override
     public void realizarFotosintesis() {
-        System.out.println("Como árbol, yo hago mi fotosíntesis");
+        System.out.println("Como arbusto, yo hago mi fotosíntesis");
     }
 
     public void secarse() {
